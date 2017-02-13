@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/bluecove-2.1.1-SNAPSHOT.jar')
+    compile project(':ev3lib')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

@@ -1,0 +1,1 @@
+include ':app', ':ev3applibrary', ':pctestev3', ':ev3lib'
